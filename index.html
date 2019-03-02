@@ -23,29 +23,36 @@
 			  text-align: center;
 			}
 
-			#info {
-				/* color: #000; */
-				/* position: absolute; */
-				/* top: 10px; */
-				/* margin: 0 auto; */
-				/* width: 100%; */
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				margin-top: -50px;
-				margin-left: -50px;
-				/* width: 100%; */
-				/* height: 100%; */
+
+			#container {
+			  position: absolute;
+			  top: 50%;
+			  margin-top: -100px;
+			  /* half of #content height*/
+			  /* left: 0; */
+			  width: 100%;
+			}
+
+			#content {
+			  width: 100%;
+			  margin-left: auto;
+			  margin-right: auto;
+			  height: 100%;
+			  /* border: 1px solid #000000; */
 			}
 
 		</style>
 	</head>
 	<body>
-		<div id="info">
-			James Baker<br/>
-			jbaker1@mit.edu<br/>
-			<a href="https://www.linkedin.com/in/jimbaker2/" target="_blank"> <img src="linkedin.png" alt="LinkedIn" height="20"></a>
-			<a href="https://github.com/jamesbaker1" target="_blank"> <img src="github.png" alt="GitHub" height="20"></a>
+		<div id="container">
+		  <div id="content">
+				"I don't have cash, sorry."<br/>
+				Donate in an increasingly digital world.
+				<br/>
+				<br/>
+				<pre><a href="url">About Us</a>&nbsp; <a href="url">Donate</a></pre>
+
+		  </div>
 		</div>
 
 		<script src="js/three.js"></script>
